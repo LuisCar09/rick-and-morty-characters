@@ -72,10 +72,28 @@ table {
   background-color: #03b1c8;
 }
 
-ul {  
-  padding-top: 100px;
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;  
+  padding-top: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
   list-style: none;
+  gap: 20px;
+  
+}
+ul li{
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  border-radius: 4px;
+}
+ul li img{
+  width: 220px;
+  height: 250px;
 }
 
-
-
+ul li span{
+  font-weight: 900;
+}
